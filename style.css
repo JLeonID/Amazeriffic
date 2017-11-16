@@ -32,3 +32,20 @@ main {
 	float: right;
 	width: 285px;
 }
+.contact {
+	float: left;
+	width: 570px;
+}
+.sitemap {
+	float: right;
+	width: 285px;
+}
+.home {
+	float: left;
+	width: 145px;
+	
+}
+.support {
+	float: right;
+	width: 140px;
+}
