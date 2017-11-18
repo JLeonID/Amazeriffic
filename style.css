@@ -42,7 +42,7 @@ header .container {
 }
 header {
 	background: white;
-	overflow: auto;
+	overflow: hidden;
 }
 header nav {
 	float: right;
@@ -50,7 +50,7 @@ header nav {
 }
 main {
 	background: white;
-	overflow: auto;
+	overflow: hidden;
 }
 .text {
 	float: left;
@@ -90,4 +90,7 @@ h5 + p {
 a {
 	text-decoration: none;
 	color: red;
+}
+a:hover {
+	text-decoration: underline;
 }
