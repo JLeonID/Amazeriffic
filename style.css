@@ -27,6 +27,7 @@ h3 {
 	list-style: circle inside;
 }
 h5 {
+	font-size: 1.2em;
 	font-family: 'Ubuntu', sans-serif;
 }
 header, main, footer {
@@ -59,9 +60,17 @@ main {
 	float: right;
 	width: 285px;
 }
+footer .container {
+	margin-top: 30px;
+}
 .contact {
 	float: left;
 	width: 570px;
+}
+h5 + p {
+	font-style: italic;
+	color: #B22222;
+	margin-top: 15px;
 }
 .sitemap {
 	float: right;
@@ -70,9 +79,15 @@ main {
 .home {
 	float: left;
 	width: 145px;
+	margin-top: 15px;
 	
 }
 .support {
 	float: right;
 	width: 140px;
+	margin-top: 15px;
+}
+a {
+	text-decoration: none;
+	color: red;
 }
