@@ -1,5 +1,9 @@
 body {
 	background: #f9e933;
+	font-family: 'Slabo 27px', serif;
+}
+h1, h2, h3, h5 {
+	font-family: 'Ubuntu', sans-serif;
 }
 header, main, footer {
 	min-width: 855px;
